@@ -1,0 +1,378 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Document */
+/*
+*{
+	margin: 10px 20px;
+	padding: 30px ;
+   margin: 20px;
+
+}*/
+body{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Images/Background image 2.png");
+	background-position: center;
+	background-size: auto;
+   padding: 2px;
+}
+#p1{
+	font-family: "Copperplate Gothic Bold";
+	text-align: left; 
+	font-size: 25px;
+}
+
+
+
+/* unordered lists*/ 
+
+ul {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   width: 100%;
+   width: 100%;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   text-align: right;
+   display: flex;
+	align-items: center;
+   z-index: 2;
+ }
+ 
+ li {
+   float: left;
+   margin-left: 20px;
+   display: inline-block;
+   font-size: 15px;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {     
+   background-color: #111;     /*navigation bar colours*/
+ }
+
+
+.rows{
+	display: flex;
+	height: 88%;
+	align-items: center;
+   margin: 50px;
+
+}
+
+table{
+   margin: 50px;
+}
+
+.col{
+	flex-basis: 50%;	
+} 
+
+h1{
+    font-family: ABeeZee Regular;
+	color: #fff;
+	font-size: 80px;
+	margin-left: 10px;
+   text-shadow: #000;
+   font-weight: 200;
+}
+p{
+	color: #fff;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: justify;
+   font-family: 'Roboto', sans-serif;
+
+
+}
+#right-p{
+    color: #fff;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: right;
+}
+.button{
+	width: 180px;
+	height: 50px;
+	color: #000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 30px;    /*/curve border*/
+	outline: none;
+	margin-top: 30px;
+	cursor: pointer;
+    transition: transform(2s);
+   
+}
+
+.button:hover{
+	background-color: #808080;
+    transform: scale(115%);
+}
+
+#favicon{
+   position: absolute;
+   bottom: 5vh;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#intro-paragraph{
+  /* background-color: #fff;
+   opacity: 0.5;*/
+   color: #000;
+   position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-indent: 5%;
+  clip: rect(0px,1920px,1080px,0px);
+  text-shadow: 3px 3px 5px #fff;
+
+
+}
+
+
+
+.carousel carousel-dark slide{
+
+width: 90vh;
+height: 90vh;
+
+}
+
+
+
+
+
+/* Images*/
+.card{ 
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;   
+    transition: transform(2s);
+}
+
+/* card 1 - 4 colombo images*/
+.des{
+  position: relative;
+  float: right; 
+}
+.card1{
+  background-image: url("Pages/Colombo/Lotus tower/FB_IMG_15588846879362405.jpg");
+}
+
+.card2{
+    background-image: url("Pages/Colombo/pic1.jpg");
+}
+
+.card3{
+   background-image: url("Pages/Colombo/pic2.jpg");
+}
+
+.card4{
+   background-image: url("Pages/Colombo/pic7.jpg");
+}
+
+.card5{
+  background-image: url("Pages/Kandy/pic1.jpg");
+}
+
+.card6{
+    background-image: url("Pages/Kandy/kandy_lake_scdp.jpg");
+}
+
+.card7{
+   background-image: url("Pages/Kandy/FB_IMG_16291890663117443.jpg");
+}
+
+.card8{
+   background-image: url("Pages/Kandy/srilanka-2792097_1920.jpg");
+}
+
+.card9{
+   background-image: url("Pages/Badulla/pic7 (1).jpg");
+}
+
+.card10{
+   background-image: url("Pages/Badulla/Main6.JPG");
+}
+
+.card11{
+   background-image: url("Pages/Badulla/pic4.jpg");
+}
+
+.card12{
+   background-image: url("Pages/Badulla/6.jpg");
+}
+
+.card13{
+   background-image: url("Pages/Nuwara Eliya/2.jpg");
+}
+
+.card14{
+   background-image: url("Pages/Nuwara Eliya/3.jpg");
+}
+
+.card15{
+   background-image: url("Pages/Nuwara Eliya/4.jpg");
+}
+
+.card16{
+   background-image: url("Pages/Nuwara Eliya/6.jpg");
+}
+
+.card17{
+   background-image: url("Pages/Matara/Pic1.png");
+}
+
+.card18{
+   background-image: url("Pages/Matara/pic2.jpg");
+}
+
+.card19{
+   background-image: url("Pages/Matara/pic3.jpg");
+}
+
+.card20{
+   background-image: url("Pages/Matara/pic4.png");
+}
+
+.card21{
+   background-image: url("Pages/Trincomalee/1.jpg");
+}
+
+.card22{
+   background-image: url("Pages/Trincomalee/2.jpg");
+}
+
+.card23{
+   background-image: url("Pages/Trincomalee/3.jpg");
+}
+
+.card24{
+   background-image: url("Pages/Trincomalee/4.jpg");
+}
+
+.card25{
+   background-image: url("Pages/Galle/pic1.jpg");
+}
+
+.card26{
+   background-image: url("Pages/Galle/pic2.jpg");
+}
+
+.card27{
+   background-image: url("Pages/Galle/pic3.jpg");
+}
+
+.card28{
+   background-image: url("Pages/Galle/pic4.jpg");
+}
+
+.card29{
+   background-image: url("Pages/Polonnaruwa/1.jpg");
+}
+
+.card30{
+   background-image: url("Pages/Polonnaruwa/2.jpg");
+}
+
+.card31{
+   background-image: url("Pages/Polonnaruwa/3.jpg");
+}
+
+.card32{
+   background-image: url("Pages/Polonnaruwa/5.jpg");
+}
+
+.card33{
+   background-image: url("Pages/Dambulla/pic1.jpg");
+}
+
+.card34{
+   background-image: url("Pages/Dambulla/pic2.jpg");
+}
+
+.card35{
+   background-image: url("Pages/Dambulla/pic3.jpg");
+}
+
+.card36{
+   background-image: url("Pages/Dambulla/caption.jpg");
+}
+
+.card37{
+   background-image: url("Pages/Jaffna/6.jpg");
+}
+
+.card38{
+   background-image: url("Pages/Jaffna/2.jpg");
+}
+
+.card39{
+   background-image: url("Pages/Jaffna/7.jpg");
+}
+
+.card40{
+   background-image: url("Pages/Jaffna/5.jpg");
+}
+
+.card41{
+   background-image: url("Pages/Anuradhapura/1.jpg");
+}
+
+.card42{
+   background-image: url("Pages/Anuradhapura/2.jpg");
+}
+
+.card43{
+   background-image: url("Pages/Anuradhapura/3.jpg");
+}
+
+.card44{
+   background-image: url("Pages/Anuradhapura/4.jpg");
+}
+
+
+
+/*animation*/
+.card:hover{
+    transform: scale(110%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
